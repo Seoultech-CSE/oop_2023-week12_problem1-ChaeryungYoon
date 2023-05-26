@@ -1,8 +1,7 @@
 import java.util.*;
 
 public class week13_1 {
-    public static void main(String[] args) {
-       public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         ArrayList<Number> list = new ArrayList<>();
@@ -19,7 +18,9 @@ public class week13_1 {
 
         sort(list);
 
-        System.out.println(list);
+        for (Number number : list) {
+            System.out.print(number + " ");
+        }
     }
 
     public static void sort(ArrayList<Number> list) {
